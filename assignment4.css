@@ -1,0 +1,117 @@
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  h1,h2{
+    text-align:center;
+    font-family: Arial, Helvetica, sans-serif;
+
+  }
+  label {
+    margin: 10px;
+  }
+  
+  input, select {
+    margin: 10px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: none;
+    font-size: 16px;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  select {
+    width: auto;
+  }
+  
+  button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #0077cc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #005fa3;
+  }
+  
+  fieldset {
+    margin-top: 20px;
+  }
+  
+  legend {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  input[type="radio"] {
+    margin-right: 10px;
+    appearance: none;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #ccc;
+  }
+  
+  input[type="radio"]:checked {
+    background-color: #0077cc;
+    border-color: #0077cc;
+  }
+  
+  input[type="radio"]:focus {
+    outline: none;
+    border-color: #0077cc;
+  }
+  
+  .other-title {
+    display: none;
+  }
+  
+  .other-title input {
+    margin-left: 10px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: none;
+    font-size: 16px;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .other-title.show {
+    display: block;
+  }
+  
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid black;
+  }
+  table th {
+    background-color: #ccc;
+    color:black;
+    padding: 10px;
+    font-weight: bold;
+    text-align: left;
+    border: 1px solid black;
+  }
+  
+  table td {
+    border: 1px solid black;
+    padding: 10px;
+  }
+  
+  table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }

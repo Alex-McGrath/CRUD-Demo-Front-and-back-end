@@ -1,0 +1,16 @@
+Assignmnent4\application is a pure nodeJS backend program that runs via a terminal. It demonstrates full CRUD features
+
+Assignment4\HTDOCS - This is the folder from the XAMPP Directory containing my HTML, CSS, JS, and Two PHP files. All frontend.
+One for each of the CRUD features we had to implement. In the folder there is also gifs on how each one works.
+
+There are premade files in there from xampp but my files are:
+
+add_user.php
+search_user.php
+assignment4.js
+assignment4.html
+assignment4.css
+users.sql (the data dump)
+
+
+Ive also included my data dump in the form of a .sql file and included it into both folders.

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DataBase</title>
+    <link rel="stylesheet" href="assignment4.css">
+</head>
+<body>
+    <h1>Add New User</h1>
+
+    <form id="add-user-form">
+        <fieldset>
+            <legend>Title:</legend>
+
+            <label for="title-mr">Mr</label>
+            <input type="radio" id="title-mr" name="title" value="Mr">
+
+            <label for="title-ms">Ms</label>
+            <input type="radio" id="title-ms" name="title" value="Ms">
+
+            <label for="title-mrs">Mrs</label>
+            <input type="radio" id="title-mrs" name="title" value="Mrs">
+
+            <label for="title-miss">Miss</label>
+            <input type="radio" id="title-miss" name="title" value="Miss">
+
+            <label for="title-mrs">Mx</label>
+            <input type="radio" id="title-mx" name="title" value="Mx">
+
+            <label for="title-dr">Dr</label>
+            <input type="radio" id="title-dr" name="title" value="Dr">
+
+            <label for="title-other">Other:</label>
+            <input type="radio" id="title-other" name="title" value="Other">
+
+            <input type="text" id="other-title" name="other-title" placeholder="Enter Other Title" style="display:none;">
+
+        </fieldset>
+
+        <label for="FirstName">First Name:</label>
+        <input type="text" id="FirstName" name="FirstName" placeholder="John" required>
+
+        <label for="Surname">Surname:</label>
+        <input type="text" id="Surname" name="Surname" placeholder="Smith" required>
+
+        <label for="mobile">Mobile:</label>
+        <input type="text" id="mobile" name="mobile"  placeholder="0851234567" required>
+
+        <label for="Email">Email:</label>
+        <input type="Email" id="Email" name="Email" placeholder="mail@example.com" required>
+
+        <button type="submit" id="submit-btn">Add User</button>
+    </form>
+
+    <h1>Search Users</h1>
+
+
+    <form id="search-user-form">
+      <label for="search-name">Search by Name:</label>
+      <input type="text" id="search-name" name="search-name" placeholder="Enter Name">
+      <button type="submit" id="search-btn">Search</button>
+    </form>
+    <h2>Results:</h2>
+    <table>
+      <tr>
+        <th>User ID</th>
+        <th>Title</th>
+        <th>First Name</th>
+        <th>Surname</th>
+        <th>Mobile</th>
+        <th>Email</th>
+        <th>Address Line 1</th>
+        <th>Address Line 2</th>
+        <th>Town</th>
+        <th>County</th>
+        <th>Eircode</th>
+
+
+      </tr>
+    </table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <script src="assignment4.js"></script>
+</body>
+</html>
